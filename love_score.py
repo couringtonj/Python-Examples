@@ -33,5 +33,7 @@ def calc_love_score(name1,name2):
     display(num1,num2)
 def display(num1,num2):
     print(f"Your love score is {num1}{num2}")
-            
-calc_love_score("Angela Yu","Jack Bauer")
+
+first_name=input("Whats is your name? ")
+second_name=input("Whats your significant others name? ")
+calc_love_score(first_name,second_name)
